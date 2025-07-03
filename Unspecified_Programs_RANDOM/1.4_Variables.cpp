@@ -13,6 +13,10 @@ int main()
     std::cout << "\n" << AgE_2;
     double PIE {314.444314};
     std::cout << "\n" << PIE;
+    PIE = 2123.4533;
+    std::cout << "\n" << PIE;
+    PIE = 453923.456;
+    std::cout << "\n" << PIE;
     
     return 0;
 
