@@ -2,6 +2,7 @@
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    double Gravity {9.8};
+    std::cout << "\n" << "The value of Gravity is " << Gravity; "\n";
     return 0;
 }
