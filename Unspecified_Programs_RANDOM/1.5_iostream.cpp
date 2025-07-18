@@ -1,5 +1,5 @@
 #include <iostream>  // for std::cout and std::cin //! TESTING
-//? TESTING AGAIN???
+//! FIX THE VSCODE OUTPUT FOR INPUT
 int main()
 {
     std::cout << "Enter a number: "; // ask user for a number
