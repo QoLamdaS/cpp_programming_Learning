@@ -1,12 +1,15 @@
-#include <iostream>  // for std::cout and std::cin //! TESTING
-//! FIX THE VSCODE OUTPUT FOR INPUT!!! ???
-int main()
-{
-    std::cout << "Enter a number: "; // ask user for a number
+#include <iostream>
+#include <string> // Required for std::string
 
-    int x{};       // define variable x to hold user input (and value-initialize it)
-    std::cin >> x; // get number from keyboard and store it in variable x
+int main() {
+    int age;
+    std::cout << "Enter your age: ";
+    std::cin >> age; // Reads an integer into 'age'
 
-    std::cout << "You entered " << x << '\n';
+    std::string firstName;
+    std::cout << "Enter your first name: ";
+    std::cin >> firstName; // Reads a single word string into 'firstName'
+
+    std::cout << "Hello, " << firstName << "! You are " << age << " years old." << std::endl;
     return 0;
 }
