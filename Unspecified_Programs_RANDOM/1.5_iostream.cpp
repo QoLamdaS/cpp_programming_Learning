@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string> // Required for std::string
-
+//! FINALLY FIXED, VScode's Terminal worked, use G++ in "tasks.json" not gcc
 int main() {
     int age;
     std::cout << "Enter your age: ";
